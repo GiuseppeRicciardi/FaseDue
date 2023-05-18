@@ -33,7 +33,7 @@ public class Student {
 
         int possibleAge = actualYear - year; //età provvisoria basata unicamente sugli anni passati dalla nascita
 
-        if(actualMonth < month || (actualMonth == month) && actualDay < day) //controlla se l'ultmo anno è stato effettivamente compiuti
+        if(actualMonth < month || (actualMonth == month) && actualDay < day) //controlla se l'ultmo anno è stato effettivamente compiuto
             return possibleAge -1;
         else{
             return possibleAge;
