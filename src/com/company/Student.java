@@ -31,7 +31,7 @@ public class Student {
         int actualMonth = Integer.parseInt(divided2[1]);
         int actualYear = Integer.parseInt(divided2[2]);
 
-        int possibleAge = actualYear - year; //età provvisoria basata unicamente sugli anni passati dalla nascita
+        int possibleAge = actualYear - year; //età provvisoria basata unicamente sugli anni trascorsi dalla nascita
 
         if(actualMonth < month || (actualMonth == month) && actualDay < day) //controlla se l'ultmo anno è stato effettivamente compiuto
             return possibleAge -1;
